@@ -37,9 +37,10 @@ class App extends Component {
         window.alert('Contracts not deployed to the current network')
       }
 
-    } else {
-      window.alert('Please install MetaMask')
     }
+    //  else {
+    //   window.alert('Please install MetaMask')
+    // }
   }
 
   async deposit(amount) {
